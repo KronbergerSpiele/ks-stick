@@ -27,7 +27,6 @@ func updateStick(direction := Vector2.ZERO):
 
 func _unhandled_input(event):
 	if event is InputEventScreenTouch:
-		print(event.index)	
 		if event.pressed:
 			activateStick(event.position)
 		else:

@@ -5,7 +5,7 @@ export(Texture) var baseActiveTexture
 export(Texture) var buttonTexture
 export(int) var maxDistance = 45
 
-var output: Vector2 = Vector2.ZERO
+export(Vector2) var output = Vector2.ZERO
 
 func _ready():
 	$base.texture=baseTexture

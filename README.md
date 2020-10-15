@@ -14,7 +14,8 @@ public KSStick Stick;
 
 public override void _Ready()
 {
-    Stick = new KSStick(
+   base._Ready();
+   Stick = new KSStick(
         GetNode("UI/Stick")
     );
 }
